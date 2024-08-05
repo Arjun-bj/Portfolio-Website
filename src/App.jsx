@@ -3,6 +3,7 @@ import './App.css'
 import AboutSection from './components/AboutSection'
 import BannerSection from './components/BannerSection'
 import ContactSection from './components/ContactSection'
+import CustomCursor from './components/CustomCursor'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import ProjectsSection from './components/ProjectsSection'
@@ -22,6 +23,7 @@ function App() {
       <ContactSection/>
       <Footer/>
       <SocialSideBar/>
+      <CustomCursor/>
     </>
   )
 }

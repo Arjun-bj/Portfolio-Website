@@ -3,8 +3,8 @@ import { IoLogoFacebook, IoLogoGithub, IoLogoLinkedin, IoLogoInstagram, IoMdShar
 
 const Footer = () => {
   return (
-    <footer data-aos="fade-up" data-aos-duration="1000">
-      <div className="footer-card p-10">
+    <footer >
+      <div className="footer-card p-10" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div className=" footer-inner flex items-center justify-between">
           <div>
             <p className="text-base">&copy; 2024 Arjunbj | All rights reserved</p>

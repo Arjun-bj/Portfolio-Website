@@ -22,8 +22,8 @@ const contactData = [
     {
         icon: FaGlobeAsia,
         title: "WEBSITE",
-        url: "",
-        details: "yourwebsite.com"
+        url: "https://arjunbj.netlify.app/#",
+        details: "https://arjunbj.netlify.app/#"
     }
 ];
 

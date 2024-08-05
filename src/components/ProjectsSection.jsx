@@ -10,7 +10,7 @@ const ProjectsSection = () => {
                     <h2 className='common-heading' style={{marginBottom: "80px"}}>My Projects</h2>
                 </div>
                 <div className='project-maincard' style={{display: "grid", gridTemplateColumns: "repeat(2,1fr)", gap: "20px", marginTop: "15px"}}>
-                    <div className='project-card'><a href="https://learning-website-design.vercel.app/"><img src={projectImg1} alt="" /></a></div>
+                    <div className='project-card overflow-hidden'><a href="https://learning-website-design.vercel.app/"><img src={projectImg1} alt="" /></a></div>
                     <div><a href="#"></a></div>
                     <div><a href="#"></a></div>
                     <div><a href="#"></a></div>
