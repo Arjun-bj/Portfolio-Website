@@ -6,7 +6,7 @@ const ContactContent = ({datas}) => {
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" className="info-card flex-properties" style={{justifyContent: "unset"}}>
         <span className="flex-properties"><Icon/></span>
         <h4 className="mt-5 mb-2.5">{datas.title}</h4>
-        <p className="w-52 text-base text-center">
+        <p className="w-52 text-base text-center filled-target">
             <a href={datas.url} style={{color: "#CCC"}}>{datas.details}</a>
         </p>
     </div>

@@ -10,8 +10,8 @@ const Header = () => {
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
                     <h4 style={{ margin: "0" }}>Menu</h4>
-                    <a href='#'>
-                        <span className='ham-menu' style={{ display: "flex", flexDirection: "column", gap: "6px" }}></span>
+                    <a className='ham-menu-wrapper py-4' href='#'>
+                        <span className='ham-menu outline-target' style={{ display: "flex", flexDirection: "column", gap: "6px" }}></span>
                     </a>
                 </div>
             </div>

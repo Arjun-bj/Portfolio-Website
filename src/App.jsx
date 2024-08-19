@@ -7,6 +7,7 @@ import CustomCursor from './components/CustomCursor'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import ProjectsSection from './components/ProjectsSection'
+import ScrollSideBar from './components/ScrollSideBar'
 import SkillSection from './components/SkillSection'
 import SocialSideBar from './components/SocialSideBar'
 
@@ -22,6 +23,7 @@ function App() {
       <SkillSection/>
       <ContactSection/>
       <Footer/>
+      <ScrollSideBar/>
       <SocialSideBar/>
       <CustomCursor/>
     </>
