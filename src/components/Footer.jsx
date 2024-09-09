@@ -19,10 +19,10 @@ const Footer = () => {
             </div>
             <div className="social-buttons">
               <ul className="flex justify-evenly text-xl">
-                <li><a href="https://www.facebook.com/" className="outline-target"><IoLogoFacebook /></a></li>
-                <li><a href="https://github.com/Arjun-bj" className="outline-target"><IoLogoGithub /></a></li>
-                <li><a href="https://www.linkedin.com/in/arjun-bj-140327312/" className="outline-target"><IoLogoLinkedin /></a></li>
-                <li><a href="https://www.instagram.com/" className="outline-target"><IoLogoInstagram /></a></li>
+                <li><a href="https://www.facebook.com/" className="outline-target" target="_blank"><IoLogoFacebook /></a></li>
+                <li><a href="https://github.com/Arjun-bj" className="outline-target" target="_blank"><IoLogoGithub /></a></li>
+                <li><a href="https://www.linkedin.com/in/arjun-bj-140327312/" className="outline-target" target="_blank"><IoLogoLinkedin /></a></li>
+                <li><a href="https://www.instagram.com/" className="outline-target" target="_blank"><IoLogoInstagram /></a></li>
               </ul>
             </div>
           </div>

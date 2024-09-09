@@ -210,25 +210,40 @@ nav ul li a{
     transform: translateX(10px);
     transition: margin-right 0.3s ease;
 }
-.project-card{
+.image-card{
+    max-width: 580px;
     border-radius: 20px;
     transition: transform 0.4s ease;
 }
-.project-card:hover{
+.image-card:hover{
     transform: scale(.9);
 }
-.project-card a{
+.image-card a{
    display: block;
 }
-.project-card img{
-    max-width: 100%;
+.image-card img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.4s ease;
 }
-.project-card img:hover{
+.image-card img:hover{
     transform: scale(1.2);
+}
+.project-title::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--tt-primary-color);
+    transform: scale(0, 1);
+    transform-origin: 0% 100%;
+    transition: transform 0.5s ease;
+}
+.project-title:hover::after{
+    transform: scale(1, 1);
 }
 .honeyComb{
     display: flex;
