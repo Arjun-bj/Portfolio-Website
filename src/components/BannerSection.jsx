@@ -4,12 +4,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import cvPdf from "../assets/files/Arjunbj-cv.pdf"
 const BannerSection = () => {
     return (
-        <section style={{ marginTop: "-130px" }} className='banner' id='banner'>
+        <section style={{ marginTop: "-175px" }} className='banner' id='banner'>
             <div className='container'>
                 <div className='banner-content' >
                     <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-once="true" className='banner-left' style={{width: "30%"}}>
                         <h4 style={{ marginBottom: "0", color: "#CCC" }}>Hi there,</h4>
-                        <h1 style={{ color: "#FFF", fontSize: "7.2vw", margin: "0" }}>
+                        <h1 style={{ color: "#FFF", fontSize: "5.5vw", margin: "20px 0", lineHeight: "100px" }}>
                             {"I'am"}
                             <br />
                             <span style={{ fontSize: "90px", color: "#890F0D",  }}>Arjun BJ</span>

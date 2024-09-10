@@ -5,7 +5,7 @@ const contactData = [
         icon: FaMapSigns,
         title: "ADDRESS",
         url: "",
-        details: "Kailasam, Valathungal PO Kollam 691011, Kerala"
+        details: "Kailasam, Valathungal PO Kollam 691011, Kerala, India"
     },
     {
         icon: FaPhoneAlt,
