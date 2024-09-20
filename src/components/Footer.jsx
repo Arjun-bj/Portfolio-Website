@@ -4,7 +4,7 @@ import { IoLogoFacebook, IoLogoGithub, IoLogoLinkedin, IoLogoInstagram, IoMdShar
 
 const Footer = () => {
   return (
-    <footer style={{borderTop: "1px solid dimgrey"}}>
+    <footer >
       <div className="container footer-card !py-12" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div className=" footer-inner flex items-center justify-between">
           <div>

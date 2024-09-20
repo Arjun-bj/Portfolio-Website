@@ -2,13 +2,17 @@
 import bannerImg from '../assets/images/freepik-export-20240712115305LvbZ.png'
 import { FaArrowRightLong } from "react-icons/fa6";
 import cvPdf from "../assets/files/Arjunbj-cv.pdf"
+import waving from "../assets/images/waving-handpng.png"
 const BannerSection = () => {
     return (
         <section style={{ marginTop: "-175px" }} className='banner' id='banner'>
             <div className='container'>
                 <div className='banner-content' >
                     <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-once="true" className='banner-left' style={{width: "30%"}}>
-                        <h4 style={{ marginBottom: "0", color: "#CCC" }}>Hi there,</h4>
+                        <div className='flex items-end gap-1.5'>
+                            <h4 style={{ marginBottom: "0", color: "#CCC" }}>Hi there</h4>
+                            <img style={{maxWidth: "30px"}} src={waving} alt="waving" />
+                        </div>
                         <h1 style={{ color: "#FFF", fontSize: "5.5vw", margin: "20px 0", lineHeight: "100px" }}>
                             {"I'am"}
                             <br />

@@ -3,6 +3,7 @@ import { contactData } from "../data"
 import ContactContent from "./ContactContent"
 import ContactForm from "./ContactForm"
 import formImg from "../assets/images/freepik2-export-20240712115305LvbZ2.png"
+// import mailImg from "../assets/images/undraw_Mailbox.png"
 
 const ContactSection = () => {
   return (
@@ -20,7 +21,7 @@ const ContactSection = () => {
           </div>
           <div className="grid gap-x-4 sm:grid-cols-2 py-16">
             <div className="" style={{width: "420px"}} data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200" data-aos-once="true">
-              <div className="circle"></div>
+              {/* <div className="circle"></div> */}
               <img src={formImg} alt="img" className="max-w-full" />
             </div>
             <ContactForm/>

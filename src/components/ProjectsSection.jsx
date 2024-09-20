@@ -2,7 +2,7 @@
 import projectImg1 from '../assets/images/Screenshot 2024-09-03 135815.png'
 import projectImg2 from '../assets/images/Screenshot 2024-09-03 123708.png'
 import projectImg3 from '../assets/images/Screenshot 2024-09-03 150554.png'
-import projectImg4 from '../assets/images/Screenshot 2024-09-09 143637.png'
+import projectImg4 from '../assets/images/Screenshot 2024-09-20 133129.png'
 // import { FaArrowRightLong } from "react-icons/fa6";
 
 const ProjectsSection = () => {

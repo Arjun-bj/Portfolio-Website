@@ -11,7 +11,7 @@ const AboutSection = () => {
                         <h1 className="ghost-sub-heading">About</h1>
                         <h2 className="common-heading">About me</h2>
                     </div>
-                    <div className="flex-between">
+                    <div className=" gap-6 flex-between">
                         <p style={{ lineHeight: "1.4", fontSize: "calc(100% + 0.4vw)", width: "60%", textAlign: "justify" }} data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1500" data-aos-once="true">
                             {"I'm "}  a passionate self-taught Front End Developer and Designer dedicated to crafting engaging and visually stunning web experiences.
                              With a blend of technical expertise and a keen eye for design, I bring creative visions to life on the web.

@@ -12,8 +12,6 @@ import SkillSection from './components/SkillSection'
 import SocialSideBar from './components/SocialSideBar'
 
 function App() {
- 
-
   return (
     <>
       <Header/>
